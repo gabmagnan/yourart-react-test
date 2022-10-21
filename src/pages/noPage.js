@@ -1,4 +1,4 @@
-import noPageStyles from '../styles/noPage.css'
+import noPageStyles from '../styles/noPage.module.css'
 
 const Artwork = () => {
 

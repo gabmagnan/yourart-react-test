@@ -1,0 +1,160 @@
+.content {
+    display: inline-flex;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.divContent{
+    display: inline-flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.leftColumn {
+    display: inline-block;
+    text-align: center;
+    width: 75%;
+    border: 1px solid black;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rightColumn {
+    vertical-align: top;
+    width: 24%;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.divFullName {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.paintingName {
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.divArtistName {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 22px;
+}
+
+.artistName {
+    color: orange;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.artistCountry {
+    color: gray;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.paintingTypeDate {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.paintingInfos {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.pricing {
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: 800;
+}
+
+.acquireButton {
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 25px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+    cursor: pointer;
+    margin: 1% auto 20px;
+}
+
+.makeAnOfferButton {
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 25px;
+    margin: 1% auto 20px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.preReserveDiv {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 14px;
+}
+
+.preReserveText {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.estimatedDeliveryFeeDiv {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 15px;
+}
+
+.estimatedDeliveryFeeText {
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.accurateDeliveryFeeText {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.residenceAndZipCodeArea {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    height: 40px;
+}
