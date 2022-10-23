@@ -1,3 +1,7 @@
+.font-link {
+    font-family: 'Nunito', cursive;
+}
+
 .content {
     display: inline-flex;
     background-color: white;
@@ -8,7 +12,7 @@
     vertical-align: middle;
 }
 
-.divContent{
+.divContentTop{
     display: inline-flex;
     margin-right: auto;
     margin-left: auto;
@@ -17,7 +21,7 @@
 }
 
 .leftColumn {
-    width: 75%;
+    width: 65%;
     padding-left: 2%;
     padding-right: 2%;
     text-align: center;
@@ -62,6 +66,7 @@
     text-align: left;
     display: inline-flex;
     width: 100%;
+    font-size: 20px;
 }
 
 .separationLine {
@@ -90,9 +95,9 @@
 
 .rightColumn {
     vertical-align: top;
-    width: 24%;
+    width: 31%;
     padding-left: 2%;
-    padding-right: 2%;
+    padding-right: 5%;
     text-align: left;
     margin-left: auto;
     margin-right: auto;
@@ -161,7 +166,7 @@
     border: 1px solid black;
     background-color: black;
     color: white;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 800;
     cursor: pointer;
     margin: 1% auto 20px;
@@ -176,7 +181,7 @@
     border: 1px solid black;
     background-color: white;
     color: black;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 800;
     cursor: pointer;
 }
@@ -250,4 +255,17 @@
     width: 43%;
     margin-left: 2%;
     font-size: 18px;
+}
+
+.divContentCarousel {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 92%;
+    margin: 30px 4%;
+    align-items: center;
+    overflow: hidden;
+}
+
+.pictureDiv{
+    display: inline-block;
 }

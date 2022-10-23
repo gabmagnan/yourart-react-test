@@ -1,4 +1,5 @@
 import './App.css';
+import './styles/globals.css';
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Artwork from "./pages/artwork";
 import NoPage from "./pages/noPage";
