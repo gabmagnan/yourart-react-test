@@ -1,12 +1,10 @@
-import noPageStyles from '../styles/noPage.module.css'
+import {NotFoundPage} from "../utils";
 
-const Artwork = () => {
+const NoPage = () => {
 
     return (
-            <h1 className={noPageStyles.notFoundTitle}>
-                404 Page Not found
-            </h1>
+        <NotFoundPage/>
     );
 };
 
-export default Artwork;
+export default NoPage;
