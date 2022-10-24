@@ -1,8 +1,12 @@
-import { render, screen } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import App from './App';
+import Artwork from "./pages/artwork";
 
-test('renders learn react link', () => {
+test('renders App component', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
 });
+
+test('renders artwork with id 0 and 1', async () => {
+  render(<Artwork url="/artwork/1" />)
+  render(<Artwork url="/artwork/0" />)
+})

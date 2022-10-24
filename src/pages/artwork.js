@@ -16,22 +16,33 @@ const Artwork = () => {
     const value = window.location.pathname.split('/')[window.location.pathname.split('/').length - 1]
     let jsonData = getJsonData(value);
 
+    // State for descriptionStyle body
     const [descriptionVisibility, setDescriptionVisibility] = useState(false);
+
+    // State for subjectMediumStyle body
     const [subjectMediumStyleVisibility, setSubjectMediumStyleVisibility] = useState(false);
+
+    // State for the index of the carousel
     const [currentIndex, setCurrentIndex] = useState(0);
+
+    // State for the artwork images preloaded
     const [otherArtworkImages, setOtherArtworkImages] = useState([]);
 
+    // Visibility styles for description body
     const descriptionVisibilityStyle = {
         display: descriptionVisibility ? 'block' : 'none'
     };
 
+    // Visibility styles for subjectMediumStyle body
     const subjectMediumStyleVisibilityStyle = {
         display: subjectMediumStyleVisibility ? 'inline-flex' : 'none'
     };
 
+
+    // Preload images
     useEffect(() => {
         const artworkImagesArray = [];
-        jsonData.otherArtworkImages.forEach((picture) => {
+        jsonData?.otherArtworkImages?.forEach((picture) => {
             const img = new Image();
             img.src = picture;
             artworkImagesArray.push(img)
@@ -315,6 +326,7 @@ const Artwork = () => {
                                 width={50}
                                 height={80}
                                 onClick={next}
+                                id={'arrowRight'}
                                 style={
                                 {
                                     cursor: 'pointer',
